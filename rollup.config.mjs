@@ -48,9 +48,13 @@ const commonPlugins = [
         file: './dist/toQRCode.min.js',
         format: 'umd',
         name: 'toQRCode',
+<<<<<<< HEAD
     },{
         file: './dist/toQRCode.min.mjs',
         format: 'es'
+=======
+        banner
+>>>>>>> 04e150cf95b69a0a51d53827f8ffff1add245e44
     }],
     plugins: commonPlugins,
     watch: {
